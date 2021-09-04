@@ -1,3 +1,3 @@
-exports.getRequest = (req, res) => {
+exports.getFeed = (req, res) => {
 	res.send('Hello');
 };
