@@ -1,31 +1,39 @@
-const path = require('path');
-const feed = require('../dev-data/data/feed.json');
-const fs = require('fs');
-
-exports.getFeed = (req, res) => {
-	res.status(200).json({
-		status: 'success',
-		results: feed.length,
-		data: {
-			feed,
-		},
+exports.getFeed = async (req, res) => {
+	const { createClient } = require("@astrajs/collections");
+	const astraClient = await createClient({
+		astraDatabaseId: process.env.ASTRA_DB_ID,
+		astraDatabaseRegion: process.env.ASTRA_DB_REGION,
+		applicationToken: process.env.ASTRA_DB_APPLICATION_TOKEN,
 	});
+
+	const postsCollection = astraClient.namespace("posts").collection("postsCollection");
+
+	const posts = await postsCollection.find({});
+	const response = Object.keys(posts).map((key) => ({
+		id: key,
+		...posts[key]
+	}));
+
+	res.json(response);
 };
 
-exports.createFeed = (req, res) => {
-	const newFeed = req.body;
-	feed.push(newFeed);
+exports.createFeed = async (req, res) => {
+	const { createClient } = require("@astrajs/collections");
+	const astraClient = await createClient({
+		astraDatabaseId: process.env.ASTRA_DB_ID,
+		astraDatabaseRegion: process.env.ASTRA_DB_REGION,
+		applicationToken: process.env.ASTRA_DB_APPLICATION_TOKEN,
+	});
 
-	fs.writeFile(
-		path.join(__dirname, '../dev-data/data/feed.json'),
-		JSON.stringify(feed),
-		(err) => {
-			res.status(201).json({
-				status: 'success',
-				data: {
-					feed,
-				},
-			});
-		}
-	);
+	const postsCollection = astraClient.namespace("posts").collection("postsCollection");
+
+	const post = await postsCollection.create({
+		"profilePicture": req.body.profilePicture,
+		"username": req.body.username,
+		"postImg": req.body.postImg,
+		"caption": req.body.caption,
+		"points": req.body.points
+	});
+
+	res.send("POST request was successfully completed.");
 };
