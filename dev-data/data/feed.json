@@ -1,173 +1,50 @@
 [
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
-    "username": "Andreas Brixen",
-    "posts": [
-      {
-        "postImg": "https://i.imgur.com/l8rN74g.png",
-        "caption": "A good old book."
-      }
-    ],
-    "points": 80
-  },
-  {
-    "profilePicture": "trial",
-    "username": "trial trial",
-    "posts": [{ "postImg": "trial", "caption": "trial." }],
-    "points": 80
-  }
+	{
+		"id": "908dd28d-6c1e-4905-9e9c-8802efdaabf1",
+		"caption": "Bella Ciao",
+		"points": 75,
+		"postImg": "https://images.unsplash.com/photo-1573997960962-858fb33936bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+		"profilePicture": "https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=3759e09a5b9fbe53088b23c615b6312e",
+		"username": "Chloe Reid"
+	},
+	{
+		"id": "7b64d052-6394-4315-ae0a-2af67b1c346d",
+		"caption": "🤤",
+		"points": 86,
+		"postImg": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+		"profilePicture": "https://randomuser.me/api/portraits/men/46.jpg",
+		"username": "Vincent Franklin"
+	},
+	{
+		"id": "9561e151-84d8-4188-93cd-7306cefa8eec",
+		"caption": "A good old book.",
+		"points": 80,
+		"postImg": "https://i.imgur.com/l8rN74g.png",
+		"profilePicture": "https://i.imgur.com/R4ikJd1.jpg",
+		"username": "Andreas Brixen"
+	},
+	{
+		"id": "79e81a61-51a7-4423-aa09-2d012b1ac647",
+		"caption": "Windows 11 FTW!!",
+		"points": 50,
+		"postImg": "https://images.unsplash.com/photo-1624571404553-49e7dbfbc90e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+		"profilePicture": "https://randomuser.me/api/portraits/men/97.jpg",
+		"username": "Dwayne Reese"
+	},
+	{
+		"id": "ede0d192-38fc-4ea0-b57e-6fa27212223d",
+		"caption": "Attending in-person hackathon after decades!!",
+		"points": 45,
+		"postImg": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+		"profilePicture": "https://randomuser.me/api/portraits/women/44.jpg",
+		"username": "Kelsey Hancock"
+	},
+	{
+		"id": "f41c02b0-01d0-45b7-ae02-befab033b1c5",
+		"caption": "Saturday nights are always wild",
+		"points": 22,
+		"postImg": "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+		"profilePicture": "https://randomuser.me/api/portraits/men/32.jpg",
+		"username": "Wilona Mills"
+	}
 ]
