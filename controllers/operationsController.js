@@ -26,20 +26,20 @@ exports.getFeed = async (req, res) => {
 	res.json(response);
 };
 
-exports.createFeed = (req, res) => {
-	const newFeed = req.body;
-	feed.push(newFeed);
+exports.createFeed = async (req, res) => {
+	const { createClient } = require("@astrajs/collections");
+	const astraClient = await createClient({
+		astraDatabaseId: process.env.ASTRA_DB_ID,
+		astraDatabaseRegion: process.env.ASTRA_DB_REGION,
+		applicationToken: process.env.ASTRA_DB_APPLICATION_TOKEN,
+	});
 
-	fs.writeFile(
-		path.join(__dirname, '../dev-data/data/feed.json'),
-		JSON.stringify(feed),
-		(err) => {
-			res.status(201).json({
-				status: 'success',
-				data: {
-					feed,
-				},
-			});
-		}
-	);
+	const postsCollection = astraClient.namespace("posts").collection("postsCollection");
+	const post = await postsCollection.create({
+		"profilePicture": req.body.profilePicture,
+		"username": req.body.username,
+		"postImg": req.body.postImg,
+		"caption": req.body.caption,
+		"points": req.body.points
+	});
 };
