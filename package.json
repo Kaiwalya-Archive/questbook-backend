@@ -1,6 +1,6 @@
 {
   "name": "datastax-backend",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "This is the backend for the application made for datastax hackathon",
   "main": "index.js",
   "scripts": {
