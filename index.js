@@ -8,6 +8,7 @@ const app = express();
 if (process.env.DEV_ENVIRONMENT === 'development') {
 	app.use(morgan('dev'));
 }
+
 app.use('/', require(path.join(__dirname, './routes/operationsRoute.js')));
 
 module.exports = app;
