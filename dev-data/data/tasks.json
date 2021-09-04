@@ -1,5 +1,10 @@
-{
-    1: ["learn a new skill", "do an exercise", "read a book"],
-    2: ["make a new dish", "play with your pet", "play an outdoor game"],
-    3: ["Take picture of a bird", "Take a pic of nature", "go on a hike"]
-}
+[
+    {
+      "id": "9ec81841-64bb-40da-8367-a99208958e21",
+      "task": [
+        "learn a new skill",
+        "do an exercise",
+        "read a book"
+      ]
+    }
+  ]
