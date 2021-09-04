@@ -8,4 +8,8 @@ route
 	.get(operationsController.getFeed)
 	.post(operationsController.createFeed);
 
+route
+	.route("/tasks")
+	.get(operationsController.getTasks);
+
 module.exports = route;
