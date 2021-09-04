@@ -1,10 +1,9 @@
 {
-  "name": "js-project-template",
+  "name": "datastax-backend",
   "version": "1.1.0",
-  "description": "1. Click on `Use this template button`\r 2. Create a project. (with the pop after clicking of above button)\r 3. Clone the repo to your local machine\r 4. run `npm i`\r 5. Tweek the following files (To fit your project)\r \t- Contributing.md\r \t- Funding.yml\r \t- Readme.md\r \t- License.md\r 6. Wohoo you set-up the project correctly now. Now you can use it for you project :)",
+  "description": "This is the backend for the application made for datastax hackathon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
   "repository": {
@@ -13,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kaiwalyakoparkar/node-js-project-template/issues"
   },
