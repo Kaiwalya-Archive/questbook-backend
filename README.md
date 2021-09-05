@@ -52,7 +52,7 @@ For new contibution or feature :
 3. Get acceptance from the code maintainers.
 4. Enjoy adding the feature
 
-## 📌 Steps to contibute (Front-End):
+## 📌 Steps to contibute (Back-End):
 
 1. Fork the project:
 Fork the project from https://github.com/kaiwalyakoparkar/questbook-backend
@@ -62,18 +62,22 @@ Fork the project from https://github.com/kaiwalyakoparkar/questbook-backend
 git clone https://github.com/<your-user-name>/questbook-backend.git
 ```
 3. Run `npm i`
-4. Open the project in your desired text editor
-5. Make a branch of any desired name
-6. Make your desired changes
-7. Now create a pull request to the parent repository
-8. Wait for acceptance ! Best of luck
+4. Create `.env` from `.env-sample`
+5. Create DataBase on [DataStax Astra](http://astra.datastax.com/)
+6. Go to Management and add a Administrator user
+7. Now copy the credentials and add it to the `.env` file you just created
+8. Start the server and check out the endpoints
+9. Do the specified changes in the code
+10. Test the code by testing in on server/api
+11. Make a PR to this repo
+12. Grab a coffee/Tea until furtur disucssion with the maintainers
 
-## 📌 Steps to contibute (Back-End):
+## 📌 Steps to contibute (Front-End):
 Refer [Front-End Repo](https://github.com/kaiwalyakoparkar/questbook-frontend/)
 
 ## Team Members & Contributors
 All the below mentioned are prominent element of this project and without them it wouldn't be possible.
 
-<a href="https://github.com/kaiwalyakoparkar/questbook-frontend/graphs/contributors">
+<a href="https://github.com/kaiwalyakoparkar/questbook-backend/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kaiwalyakoparkar/questbook-backend" />
 </a>
